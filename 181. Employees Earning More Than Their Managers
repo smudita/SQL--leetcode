@@ -1,0 +1,5 @@
+Select e.name as Employee from
+Employee e
+left join Employee 
+ON e.managerId = Employee.id
+Where e.salary>Employee.salary
